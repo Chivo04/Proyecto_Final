@@ -5,8 +5,8 @@
         bottom: 0;
         width: 100%;
         height: 45px;
-        background-color: #4158D0;
-        background-image: linear-gradient(43deg, #8f9cdf 0%, #ceceee 100%);}
+        background-color: $bg-footer;
+        background-image: linear-gradient(43deg, $bg-imagef1 0%, $bg-imagef2 100%);}
        
     .pie_pagina a{
         width: 45px;
@@ -25,9 +25,9 @@
         transform: scale(1) translateY(-10px);
         transition: 0.3s;
         color: black;
-        background-color: rgb(152, 158, 158);
+        background-color: $bg-transf1;
         border-radius: 8%;
-        border-color: #4158D0;
+        border-color: $bg-footer;
         border-style:inherit;}
     
     

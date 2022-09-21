@@ -24,8 +24,8 @@
     display: inline-block;}
         
 .desplegable:hover{
-    background-color: #4158D0;
-    background-image: linear-gradient(43deg, #8f9cdf 0%, #ceceee 100%);
+    background-color: $bg-header;
+    background-image: linear-gradient(43deg, $bg-imageh1 0%, $bg-imageh2 100%);
     transition: 0.9s;}
         
 .navbar{
@@ -41,8 +41,8 @@
     list-style-type: none;
     font-size: 20px;
     font-weight: bold;
-    background-color: #4158D0;
-    background-image: linear-gradient(43deg, #8f9cdf 0%, #ceceee 100%);}
+    background-color: $bg-header;
+    background-image: linear-gradient(43deg, $bg-imageh1 0%, $bg-imageh2 100%);}
     
 .navbar-collapse{
     flex-grow: 0;}
@@ -68,5 +68,5 @@
     top: 0;
     left: 0;
     margin-right: 5px;
-    background-color: #4158D0;
-    background-image: linear-gradient(43deg, #8f9cdf 0%, #ceceee 100%);}
+    background-color: $bg-header;
+    background-image: linear-gradient(43deg,$bg-imageh1 0%,$bg-imageh2 100%);}
