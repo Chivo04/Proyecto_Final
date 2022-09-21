@@ -1,4 +1,10 @@
 %disposicion{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+.pie_pagina{
+    @extend %disposicion;
+}
+.barra-page{
+    @extend %disposicion;
 }

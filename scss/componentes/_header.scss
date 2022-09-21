@@ -1,6 +1,6 @@
    /* Sección Header Principal con Boostrap */
 
-   .logo-rpc{
+.logo-rpc{
     height: 85px;
     width: 85px;
     padding: 5px;}
@@ -61,7 +61,8 @@
 .barra-page{
     width: 100%;
     padding: 6px 0;
-    display:flex;
+/*     display:flex;
+    flex-direction: row; */
     align-items: center;
     justify-content: space-between;
     position: fixed;

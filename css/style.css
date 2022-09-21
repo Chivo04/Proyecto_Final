@@ -2,6 +2,11 @@
 /* Colores Body */
 /* Colores Header */
 /* Colores Footer */
+.barra-page, .pie_pagina {
+  display: flex;
+  flex-direction: row;
+}
+
 * {
   Margin: 0;
   padding: 0;
@@ -94,7 +99,8 @@ body {
 .barra-page {
   width: 100%;
   padding: 6px 0;
-  display: flex;
+  /*     display:flex;
+      flex-direction: row; */
   align-items: center;
   justify-content: space-between;
   position: fixed;
@@ -300,8 +306,8 @@ article img {
 }
 
 .pie_pagina {
-  display: flex;
-  flex-direction: row;
+  /*         display: flex;
+          flex-direction: row; */
   justify-content: space-evenly;
   font-size: 28px;
 }
