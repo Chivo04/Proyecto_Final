@@ -1,0 +1,157 @@
+   /* Sección Presentación*/
+
+   .presentacion{
+    height: 480px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;}
+
+.presentacion h1{
+    font-size: 50px;
+    color: blue;
+    font-style: oblique;
+    text-align: center;}
+
+.video{
+    border: 5px solid red;
+    width: 560px;
+    height:320px;}
+
+    /* Sección Nosotros */
+ 
+.nosotros{
+    height: 390px;
+    font-size: 8pt;}
+
+.nosotros_interno{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;}
+
+.nosotros h2{
+    color: rgb(47, 50, 255);
+	font-size: 50px;
+	text-align: center;}
+
+article p{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Comic Sans MS", sans-serif;}
+
+article img{
+    width: 400px;
+    height:230px;}
+
+    /* Seccion Testimonios */
+
+/* .carousel{
+    width: 650px;
+    height: auto;}
+    
+.mx-auto{
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+.carousel-caption{
+    bottom: 8.25rem;}
+ */
+#testimonios{
+    background-image: url("/assets/img/varios/Escritura2.jpg");
+    background-repeat:none;
+    background-size: cover;
+    }
+
+
+#testimonios h2{
+    color: rgb(47, 50, 255);
+    font-size: 50px;
+    text-align: center;}
+
+#testimonios p{
+    font-style: italic;
+    font-size: 20px;
+    text-align:inherit;
+    color: black;
+    margin:3px;
+    border-color: #aaaaaa;
+    border-width: 3px;
+    border-style: solid;
+    opacity: 1;}
+
+.testimonios_cajas{
+    opacity: .8;}
+
+.test_1{
+    background-color: aquamarine;}
+
+.test_2{
+    background-color: rgb(201, 248, 203);}
+
+.test_3{
+    background-color: rgb(236, 252, 191);}
+
+.test_4{
+    background-color: rgb(241, 219, 245);}
+
+.test_5{
+    background-color: white;}
+
+.test_6{
+    background-color: pink;}
+
+    /* GRID a Testimonios */
+
+.testimonios_cajas{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 5px;
+    justify-items: center;
+    font-size: 15px;}
+
+    /* Sección Contacto */
+
+#contacto{
+    height: 490px;
+    font-size: 8pt;}
+
+#contacto h2{
+    color: rgb(47, 50, 255);
+    font-size: 50px;
+    text-align: center;}
+
+.formulario{
+    display:flex;
+    justify-content: center;}
+
+    /* GRID a Páginas de Profesionales */
+
+.profesionales_cajas{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 5px;
+    justify-items: center;
+    font-size: 15px;}
+
+.profesionales_int{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: #aaaaaa solid;}
+
+.profesionales_cajas img{
+    width:200px;
+    height:200px;
+    margin: 5px;
+    border-style: groove;
+    border-color: rgb(205, 182, 226);}
+
+.profesionales_tit{
+    margin: 15px;
+    text-align: center;
+    color: rgb(47, 50, 255);
+    font-size: 35px;}
