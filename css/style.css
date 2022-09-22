@@ -270,6 +270,7 @@ article img {
   flex-wrap: wrap;
   justify-content: center;
   border: #aaaaaa solid;
+  padding: 10px;
 }
 
 .profesionales_cajas img {
@@ -289,7 +290,6 @@ article img {
 
 /* Footer */
 .pie_pagina {
-  text-decoration: none;
   position: sticky;
   bottom: 0;
   width: 100%;
@@ -618,6 +618,9 @@ article img {
   .elemento {
     margin-right: 12px;
   }
+}
+footer a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -110,7 +110,9 @@ article img{
     grid-template-rows: auto;
     gap: 5px;
     justify-items: center;
-    font-size: 15px;}
+    font-size: 15px;
+
+}
 
     /* Sección Contacto */
 
@@ -135,13 +137,16 @@ article img{
     grid-template-rows: auto;
     gap: 5px;
     justify-items: center;
-    font-size: 15px;}
+    font-size: 15px;
+}
 
 .profesionales_int{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: #aaaaaa solid;}
+    border: #aaaaaa solid;
+    padding:$pad-text;    
+}
 
 .profesionales_cajas img{
     width:200px;
