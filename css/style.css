@@ -18,6 +18,10 @@
   margin: 5px;
 }
 
+.flecha {
+  float: right;
+}
+
 /* Body */
 body {
   background-color: white;
@@ -164,22 +168,24 @@ article img {
 }
 
 /* Seccion Testimonios */
-/* .carousel{
-    width: 650px;
-    height: auto;}
-
-.mx-auto{
-    margin-right: auto;
-    margin-left: auto;
-    }
-
-.carousel-caption{
-    bottom: 8.25rem;}
- */
 #testimonios {
   background-image: url("/assets/img/varios/Escritura2.jpg");
   background-repeat: none;
   background-size: cover;
+}
+
+/* .carousel{
+    width: 650px;
+    height: auto;
+}
+ */
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.carousel-caption {
+  bottom: 8.25rem;
 }
 
 #testimonios h2 {
@@ -200,10 +206,8 @@ article img {
   opacity: 1;
 }
 
-.testimonios_cajas {
-  opacity: 0.8;
-}
-
+/* .textos_cajas{
+    opacity: .8;} */
 .test_1 {
   background-color: aquamarine;
 }
@@ -229,7 +233,7 @@ article img {
 }
 
 /* GRID a Testimonios */
-.testimonios_cajas {
+.textos_cajas {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;

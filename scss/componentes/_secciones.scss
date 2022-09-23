@@ -1,6 +1,6 @@
    /* Sección Presentación*/
 
-   .presentacion{
+.presentacion{
     height: 480px;
     display:flex;
     flex-direction: column;
@@ -45,25 +45,25 @@ article img{
     height:230px;}
 
     /* Seccion Testimonios */
-
-/* .carousel{
-    width: 650px;
-    height: auto;}
-    
-.mx-auto{
-    margin-right: auto;
-    margin-left: auto;
-    }
-
-.carousel-caption{
-    bottom: 8.25rem;}
- */
-#testimonios{
+ 
+ #testimonios{
     background-image: url("/assets/img/varios/Escritura2.jpg");
     background-repeat:none;
     background-size: cover;
     }
 
+/* .carousel{
+    width: 650px;
+    height: auto;
+}
+ */    
+.mx-auto{
+    margin-right: auto;
+    margin-left: auto;
+ }
+
+.carousel-caption{
+    bottom: 8.25rem;}
 
 #testimonios h2{
     color: rgb(47, 50, 255);
@@ -81,8 +81,8 @@ article img{
     border-style: solid;
     opacity: 1;}
 
-.testimonios_cajas{
-    opacity: .8;}
+/* .textos_cajas{
+    opacity: .8;} */
 
 .test_1{
     background-color: aquamarine;}
@@ -104,14 +104,13 @@ article img{
 
     /* GRID a Testimonios */
 
-.testimonios_cajas{
+.textos_cajas{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     gap: 5px;
     justify-items: center;
     font-size: 15px;
-
 }
 
     /* Sección Contacto */
