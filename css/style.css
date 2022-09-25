@@ -204,10 +204,9 @@ article img {
   border-width: 3px;
   border-style: solid;
   opacity: 1;
+  padding: 5px;
 }
 
-/* .textos_cajas{
-    opacity: .8;} */
 .test_1 {
   background-color: aquamarine;
 }
@@ -238,7 +237,7 @@ article img {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   gap: 5px;
-  justify-items: center;
+  justify-content: center;
   font-size: 15px;
 }
 
@@ -256,6 +255,7 @@ article img {
 
 .formulario {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -361,20 +361,20 @@ article img {
   }
   /* Sección Nosotros */
   .nosotros {
-    height: 265px;
+    height: 335px;
   }
   .nosotros h2 {
     font-size: 36px;
     padding: 10px;
   }
   .nosotros_interno img {
-    width: 251px;
-    height: 148px;
+    width: 261px;
+    height: 155px;
     border: 5px groove rgb(129, 104, 104);
-    border-radius: 15px;
+    border-radius: 8px;
   }
   .nosotros_interno p {
-    font-size: 23px;
+    font-size: 19px;
   }
   .flecha_arriba {
     height: 35px;
@@ -382,29 +382,21 @@ article img {
     margin: 6px;
   }
   /* Sección Testimonios */
-  #testimonios {
-    z-index: -1;
-  }
   #testimonios h2 {
     font-size: 36px;
   }
-  .testimonios_cajas {
+  .textos_cajas {
     font-size: 6px;
-  }
-  .testimonios_cajas {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     gap: 2px;
-    justify-items: center;
+    justify-content: center;
   }
   #testimonios p {
     font-style: talic;
     font-size: 16px;
   }
   /* Sección Contacto */
-  #contacto {
-    height: 370px;
-  }
   #contacto h2 {
     font-size: 29px;
   }
@@ -469,8 +461,8 @@ article img {
     font-size: 30px;
   }
   .nosotros_interno img {
-    width: 190px;
-    height: 89px;
+    width: 290px;
+    height: 110px;
   }
   .nosotros_interno p {
     font-size: 15px;
@@ -484,14 +476,111 @@ article img {
   #testimonios h2 {
     font-size: 30px;
   }
-  .testimonios_cajas {
+  .textos_cajas {
     font-size: 6px;
-  }
-  .testimonios_cajas {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     gap: 2px;
-    justify-items: center;
+    justify-content: center;
+    align-self: center;
+  }
+  #testimonios p {
+    font-style: italic;
+    font-size: 12px;
+  }
+  /* Sección Contacto */
+  #contacto {
+    height: 370px;
+  }
+  #contacto h2 {
+    font-size: 29px;
+  }
+  /* Footer */
+  .pie_pagina {
+    height: 40px;
+    font-size: 24px;
+  }
+  .pie_pagina a {
+    height: 32px;
+  }
+  /* Página Profesionales */
+  .profesionales_tit {
+    padding-top: 20px;
+    font-size: 17px;
+  }
+  .profesionales_cajas {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* Página Principal */
+  .flecha_arriba {
+    display: none;
+  }
+  /* Sección Encabezado */
+  .container-fluid {
+    padding-left: var(--bs-gutter-x, 0px);
+    padding-right: var(--bs-gutter-x, 55px);
+  }
+  .navbar-brand {
+    margin-right: 0px;
+  }
+  .logo-rpc {
+    height: 75px;
+    width: 75px;
+    padding: 4px;
+  }
+  .barra-rpc a {
+    font-size: small;
+  }
+  /* Sección Presentacion */
+  .presentacion {
+    height: 381px;
+    justify-content: space-evenly;
+    padding-top: 10px;
+  }
+  .presentacion h1 {
+    font-size: 22px;
+  }
+  .video {
+    border: 5px solid rgb(129, 104, 104);
+    width: 398px;
+    height: 223px;
+  }
+  /* Sección Nosotros */
+  .nosotros {
+    height: 210px;
+    font-size: 8pt;
+  }
+  .nosotros h2 {
+    font-size: 30px;
+  }
+  .nosotros_interno img {
+    width: 175px;
+    height: 110px;
+  }
+  .nosotros_interno p {
+    font-size: 15px;
+    padding: 2px;
+  }
+  .flecha_arriba {
+    height: 35px;
+    width: 35px;
+    margin: 6px;
+  }
+  /* Sección Testimonios */
+  #testimonios h2 {
+    font-size: 30px;
+  }
+  .textos_cajas {
+    display: grid;
+    grid-template-columns: repeat(1, 0.75fr);
+    grid-template-rows: auto;
+    gap: 2px;
+    justify-content: center;
+    align-self: center;
+    font-size: 6px;
   }
   #testimonios p {
     font-style: italic;
@@ -579,10 +668,10 @@ article img {
   #testimonios h2 {
     font-size: 30px;
   }
-  .testimonios_cajas {
+  .textos_cajas {
     font-size: 6px;
   }
-  .testimonios_cajas {
+  .textos_cajas {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     gap: 2px;

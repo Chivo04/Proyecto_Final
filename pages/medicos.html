@@ -12,31 +12,35 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class=" barra-rpc navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <div>
-            <li>
-              <a class="navbar-page" href="../index.html"><img class="logo-rpc" src="../assets/img/varios/LogoRPC.png" alt="Logo RPC" class="d-inline-block align-text-center"> Red de Profesionales Confiables </a>
-            </li>
-          </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <a class="navbar-brand" href="../index.html"><img class="logo-rpc" src="../assets/img/varios/LogoRPC.png" alt="Logo RPC" class="d-inline-block align-text-center"> Red de Profesionales Confiables </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="../pages/abogados.html">Abogados</a></li>
+                <a class="nav-link active" href="../index.html#nosotros">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Profesionales</a>
+                <ul class="desplegable dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a href="./abogados.html">Abogados</a></li>
+                  <li><a href="./contadores.html">Contadores</a></li>
+                  <li><a href="./medicos.html">Médicos</a></li>
+                  <li><a href="./psicologos.html">Psicólogos</a></li>
+                  <li><a href="./otros.html">Otros</a></li>
+                </ul>
+              </li>
               <li class="nav-item">
-                <a class="nav-link active" href="../pages/contadores.html">Contadores</a></li>
+                <a class="nav-link active" aria-current="page" href="../index.html#testimonios">Testimonios</a>
+              </li>
               <li class="nav-item">
-                <a class="nav-link active" href="../pages/medicos.html">Médicos</a></li>
-              <li class="nav-item">
-                <a class="nav-link active" href="../pages/psicologos.html">Psicólogos</a></li>
-              <li class="nav-item">
-                <a class="nav-link active" href="../pages/otros.html">Otros</a></li>
+                <a class="nav-link active" href="../index.html#contacto">Contacto</a>
               </li>
             </ul>
           </div>
