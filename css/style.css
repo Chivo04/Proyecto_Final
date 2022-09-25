@@ -172,6 +172,7 @@ article img {
   background-image: url("/assets/img/varios/Escritura2.jpg");
   background-repeat: none;
   background-size: cover;
+  height: 610px;
 }
 
 /* .carousel{
@@ -184,10 +185,8 @@ article img {
   margin-left: auto;
 }
 
-.carousel-caption {
-  bottom: 8.25rem;
-}
-
+/* .carousel-caption{
+    bottom: 8.25rem;} */
 #testimonios h2 {
   color: rgb(47, 50, 255);
   font-size: 50px;
@@ -243,7 +242,7 @@ article img {
 
 /* Sección Contacto */
 #contacto {
-  height: 490px;
+  height: 380px;
   font-size: 8pt;
 }
 
