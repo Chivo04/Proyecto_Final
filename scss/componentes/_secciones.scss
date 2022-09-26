@@ -50,21 +50,11 @@ article img{
     background-image: url("/assets/img/varios/Escritura2.jpg");
     background-repeat:none;
     background-size: cover;
-    height: 610px;
-    }
+    height: 610px;}
 
-/* .carousel{
-    width: 650px;
-    height: auto;
-}
- */    
 .mx-auto{
     margin-right: auto;
-    margin-left: auto;
- }
-
-/* .carousel-caption{
-    bottom: 8.25rem;} */
+    margin-left: auto; }
 
 #testimonios h2{
     color: rgb(47, 50, 255);
@@ -109,8 +99,7 @@ article img{
     grid-template-rows: auto;
     gap: 5px;
     justify-content: center;
-    font-size: 15px;
-}
+    font-size: 15px;}
 
     /* Sección Contacto */
 
@@ -136,16 +125,14 @@ article img{
     grid-template-rows: auto;
     gap: 5px;
     justify-items: center;
-    font-size: 15px;
-}
+    font-size: 15px;}
 
 .profesionales_int{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     border: #aaaaaa solid;
-    padding:$pad-text;    
-}
+    padding:$pad-text;}
 
 .profesionales_cajas img{
     width:200px;

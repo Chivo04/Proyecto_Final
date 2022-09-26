@@ -15,7 +15,7 @@
 .flecha_arriba {
   height: 50px;
   width: 50px;
-  margin: 5px;
+  margin: 15px;
 }
 
 .flecha {
@@ -76,7 +76,7 @@ body {
   left: 0;
   margin-right: 5px;
   list-style-type: none;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   background-color: #4158D0;
   background-image: linear-gradient(43deg, #8f9cdf 0%, #ceceee 100%);
@@ -103,8 +103,6 @@ body {
 .barra-page {
   width: 100%;
   padding: 6px 0;
-  /*     display:flex;
-      flex-direction: row; */
   align-items: center;
   justify-content: space-between;
   position: fixed;
@@ -175,18 +173,11 @@ article img {
   height: 610px;
 }
 
-/* .carousel{
-    width: 650px;
-    height: auto;
-}
- */
 .mx-auto {
   margin-right: auto;
   margin-left: auto;
 }
 
-/* .carousel-caption{
-    bottom: 8.25rem;} */
 #testimonios h2 {
   color: rgb(47, 50, 255);
   font-size: 50px;
@@ -310,8 +301,6 @@ article img {
 }
 
 .pie_pagina {
-  /*         display: flex;
-          flex-direction: row; */
   justify-content: space-evenly;
   font-size: 28px;
 }
