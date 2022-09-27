@@ -1,7 +1,4 @@
 @charset "UTF-8";
-/* Colores Body */
-/* Colores Header */
-/* Colores Footer */
 .barra-page, .pie_pagina {
   display: flex;
   flex-direction: row;
@@ -42,7 +39,6 @@ body {
   text-decoration: none;
   color: black;
   color: rgb(23, 21, 160);
-  font-weight: 600;
   font-size: larger;
 }
 
@@ -190,9 +186,7 @@ article img {
   text-align: inherit;
   color: black;
   margin: 3px;
-  border-color: #aaaaaa;
-  border-width: 3px;
-  border-style: solid;
+  border: solid 3px #aaaaaa;
   opacity: 1;
   padding: 5px;
 }
