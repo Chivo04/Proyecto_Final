@@ -278,8 +278,9 @@ article img {
 
 /* Footer */
 .pie_pagina {
-  position: sticky;
-  bottom: 0;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
   width: 100%;
   height: 45px;
   background-color: #4158D0;
@@ -527,8 +528,8 @@ article img {
   }
   .video {
     border: 5px solid rgb(129, 104, 104);
-    width: 398px;
-    height: 223px;
+    width: 319px;
+    height: 179px;
   }
   /* Sección Nosotros */
   .nosotros {
@@ -557,11 +558,9 @@ article img {
   }
   .textos_cajas {
     display: grid;
-    grid-template-columns: repeat(1, 0.75fr);
+    grid-template-columns: repeat(1, 0.85fr);
     grid-template-rows: auto;
-    gap: 2px;
     justify-content: center;
-    align-self: center;
     font-size: 6px;
   }
   #testimonios p {
@@ -574,6 +573,10 @@ article img {
   }
   #contacto h2 {
     font-size: 29px;
+  }
+  .formulario {
+    max-width: 100%;
+    width: 500px;
   }
   /* Footer */
   .pie_pagina {
@@ -623,8 +626,8 @@ article img {
   }
   .video {
     border: 5px solid rgb(129, 104, 104);
-    width: 398px;
-    height: 223px;
+    width: 310px;
+    height: 170px;
   }
   /* Sección Nosotros */
   .nosotros {
@@ -639,7 +642,7 @@ article img {
     height: 89px;
   }
   .nosotros_interno p {
-    font-size: 15px;
+    font-size: 10px;
   }
   .flecha_arriba {
     height: 35px;
@@ -651,12 +654,12 @@ article img {
     font-size: 30px;
   }
   .textos_cajas {
-    font-size: 6px;
+    font-size: 4px;
   }
   .textos_cajas {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 0.8fr);
     grid-template-rows: auto;
-    gap: 2px;
+    gap: 6px;
     justify-items: center;
   }
   #testimonios p {
@@ -665,7 +668,7 @@ article img {
   }
   /* Sección Contacto */
   #contacto {
-    height: 370px;
+    height: 170px;
   }
   #contacto h2 {
     font-size: 29px;

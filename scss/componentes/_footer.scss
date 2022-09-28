@@ -1,8 +1,9 @@
     /* Footer */
 
 .pie_pagina{
-    position: sticky;
-    bottom: 0;
+    position:fixed;
+    left:0px;
+    bottom:0px;
     width: 100%;
     height: 45px;
     background-color: $bg-footer;
