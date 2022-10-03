@@ -5,7 +5,7 @@
 .flecha_arriba{
     height: nth($list: $tamaños, $n: 10);
     width: nth($list: $tamaños, $n: 10);
-    margin: nth($list: $tamaños, $n: 3)}
+    margin: nth($list: $tamaños, $n: 3);}
 
 .flecha{
     position: fixed;
