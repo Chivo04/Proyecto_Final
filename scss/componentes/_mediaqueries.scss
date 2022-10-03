@@ -98,7 +98,7 @@
         font-size: 24px;} 
     }
     
-    @media only screen and (max-width: 576px){
+@media only screen and (max-width: 576px){
     
         /* Página Principal */
     
@@ -202,8 +202,8 @@
     .profesionales_cajas{
         grid-template-columns: repeat(1, 1fr);}
     }
-    
-    @media only screen and (max-width: 480px){
+
+@media only screen and (max-width: 480px){
     
         /* Página Principal */
     
@@ -290,8 +290,7 @@
     
     .formulario{
         max-width: 100%;
-        width: 500px
-    }
+        width: 500px;}
 
         /* Footer */
     
@@ -312,7 +311,7 @@
         grid-template-columns: repeat(1, 1fr);}
     }
 
-    @media only screen and (max-width: 390px){
+@media only screen and (max-width: 390px){
     
         /* Página Principal */
     
@@ -392,10 +391,8 @@
         /* Sección Contacto */
     
     #contacto {
-          height: 270px;
-        }
-    
-    
+        height: 270px;}
+        
     #contacto h2{
         font-size: 29px;}
     
