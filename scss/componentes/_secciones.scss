@@ -50,7 +50,7 @@ article img{
     background-image: url("/assets/img/varios/Escritura2.jpg");
     background-repeat:none;
     background-size: cover;
-    height: 610px;}
+    height: 480px;}
 
 .mx-auto{
     margin-right: auto;
@@ -63,7 +63,7 @@ article img{
 
 #testimonios p{
     font-style: italic;
-    font-size: 20px;
+    font-size: 18px;
     text-align:inherit;
     color: black;
     margin:3px;
@@ -188,8 +188,7 @@ button:hover{
     margin-bottom: 20px; 
   }
   
-  
-  textarea{
+textarea{
     background-color: #fbfbfb; 
     width: 405px; 
     height: 150px; 
@@ -209,8 +208,12 @@ button:hover{
     float: center;  
   }
   
+.botones{
+    display:flex;
+    justify-content: space-around;
+}
   
-button{
+.boton_envio{
     height: 45px; 
     padding-left: 5px;
     padding-right: 5px;   
@@ -221,10 +224,23 @@ button{
     background-color: rgb(66, 194, 72); 
     border:2px solid #78788c; 
     border-radius: 10px;  
-    width: 420px;   
+    width: 100px;   
     cursor: pointer;
 }
-  
+.boton_limpiar{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    font-family:'Montserrat',sans-serif;
+    background-color: rgb(129, 83, 65); 
+    border:2px solid #78788c; 
+    border-radius: 10px;  
+    width: 100px;   
+    cursor: pointer;
+}
   
   
 .obligatorio{
