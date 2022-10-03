@@ -184,7 +184,7 @@ article img {
   background-image: url("/assets/img/varios/Escritura2.jpg");
   background-repeat: none;
   background-size: cover;
-  height: 475x;
+  height: 405px;
 }
 
 .mx-auto {
@@ -231,6 +231,11 @@ article img {
 
 .test_6 {
   background-color: pink;
+}
+
+.elementos {
+  margin-left: 6px;
+  margin-right: 10px;
 }
 
 /* GRID a Testimonios */
