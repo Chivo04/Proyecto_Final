@@ -245,71 +245,11 @@ article img {
 }
 
 /* Sección Contacto */
-/* .formulario{
-    width:340px;
-    height:440px;
-    background:#e6e6e6;
-    border-radius:8px;
-    box-shadow:0 0 40px -10px #000;
-    margin:calc(50vh - 220px) auto;
-    padding:20px 30px;
-    max-width:calc(100vw - 40px);
-    box-sizing:border-box;
-    font-family:'Montserrat',sans-serif;
-    position:unset;}
-
-.tituloscont{
-    margin:10px 0;
-    padding-bottom: 0px;
-    width:246px;
-    color:#78788c;
-    border-bottom:3px solid #78788c}
-
-input{
-    width:100%;
-    padding:10px;
-    box-sizing:border-box;
-    background:none;
-    outline:none;
-    resize:none;
-    border:0;
-    font-family:'Montserrat',sans-serif;
-    transition:all .3s;
-    border-bottom:2px solid #bebed2}
-
-input:focus{
-    border-bottom:2px solid #78788c}
-
-p:before{
-    content:attr(type);
-    display:block;
-    margin:28px 0 0;
-    font-size:14px;
-    color:#5a5a5a}
-
-button{
-    float:right;
-    padding:8px 12px;
-    margin:8px 0 0;
-    font-family:'Montserrat',sans-serif;
-    border:2px solid #78788c;
-    background:0;
-    color:#5a5a6e;
-    cursor:pointer;
-    transition:all .3s}
-
-button:hover{
-    background:#78788c;
-    color:#fff}
-
-.formulario p{
-    font-weight: bold; }*/
 .contact_form {
   width: 435px;
   height: auto;
   margin: 80px auto;
   border-radius: 10px;
-  /*   padding-top: 30px; */
   padding-bottom: 20px;
   background-color: #fbfbfb;
   padding-left: 6px;
@@ -352,7 +292,7 @@ label {
   justify-content: space-around;
 }
 
-.boton_envio {
+.boton_enviar {
   height: 45px;
   padding-left: 5px;
   padding-right: 5px;
@@ -427,10 +367,6 @@ label {
   border: 1px solid #97d848;
 }
 
-/* .submit p{
-    font-size: 34px; 
-    color: #0e0e0e; 
-} */
 /* GRID a Páginas de Profesionales */
 .profesionales_cajas {
   display: grid;
@@ -786,7 +722,7 @@ label {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 390px) {
   /* Página Principal */
   .flecha_arriba {
     display: none;
@@ -859,7 +795,7 @@ label {
   }
   /* Sección Contacto */
   #contacto {
-    height: 170px;
+    height: 270px;
   }
   #contacto h2 {
     font-size: 29px;
