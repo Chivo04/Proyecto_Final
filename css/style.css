@@ -286,7 +286,7 @@ label {
   float: center;
 }
 
-.botones {
+.boton_es {
   display: flex;
   justify-content: space-around;
 }
