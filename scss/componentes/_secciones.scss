@@ -222,6 +222,8 @@ label{
 
 .profesionales_cajas{
     display:grid;
+    margin-left: 6px;
+    margin-right: 13px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     gap: 5px;
