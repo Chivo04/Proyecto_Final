@@ -98,7 +98,7 @@
     <div class="formulario">      
       <h2>Formulario de contacto</h2>
       <h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
-      <form>       
+      <form class="form_reg">       
         <p><label for="nombre" class="colocar_nombre">Nombre<span class="obligatorio">*</span></label>
         <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
         </p>
@@ -111,7 +111,7 @@
         <p><label for="mensaje" class="colocar_mensaje">Mensaje<span class="obligatorio">*</span></label>
           <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea></p>                    
       <div class="boton_es">
-        <button class="boton_limpiar">Limpiar</button><button class="boton_enviar">Enviar</button>
+        <button class="boton_limpiar" type="reset">Limpiar</button><button class="boton_enviar" type="submit">Enviar</button>
       </div>
         <p class="aviso"> <span class="obligatorio"> * </span>los campos son obligatorios.</p>
           

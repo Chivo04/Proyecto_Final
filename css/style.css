@@ -25,7 +25,7 @@
 body {
   background-color: white;
   font-family: sans-serif;
-  padding: 108px 0 0 0;
+  padding: 108px 0 50px 0;
   min-height: 100vh;
   background-image: linear-gradient(135deg, #f5f7fa 0%, #83a7e0 100%);
 }
@@ -249,7 +249,7 @@ article img {
 }
 
 /* Sección Contacto */
-.contact_form {
+.formulario {
   width: 435px;
   height: auto;
   margin: 80px auto;
@@ -259,9 +259,15 @@ article img {
   padding-left: 6px;
 }
 
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 input {
   background-color: #fbfbfb;
-  width: 408px;
+  width: 95%;
   height: 40px;
   border-radius: 5px;
   border-style: solid;
@@ -274,7 +280,7 @@ input {
 
 textarea {
   background-color: #fbfbfb;
-  width: 405px;
+  width: 95%;
   height: 150px;
   border-radius: 5px;
   border-style: solid;
@@ -508,7 +514,7 @@ label {
     font-size: 16px;
   }
   #testimonios {
-    height: 520px;
+    height: -moz-available;
   }
   /* Sección Contacto */
   #contacto h2 {
@@ -706,7 +712,7 @@ label {
     font-size: 29px;
   }
   .formulario {
-    max-width: 100%;
+    max-width: 96%;
     width: 500px;
   }
   /* Footer */
@@ -757,7 +763,7 @@ label {
   }
   .video {
     border: 5px solid rgb(129, 104, 104);
-    width: 310px;
+    width: 98%;
     height: 170px;
   }
   /* Sección Nosotros */
@@ -802,7 +808,7 @@ label {
     height: 270px;
   }
   #contacto h2 {
-    font-size: 29px;
+    font-size: 25px;
   }
   /* Footer */
   .pie_pagina {

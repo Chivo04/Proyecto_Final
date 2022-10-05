@@ -71,8 +71,9 @@
     #testimonios p{
         font-style: talic;
         font-size: 16px;}
+
     #testimonios{
-        height: 520px;}
+        height: -moz-available;}
 
         /* Sección Contacto */
     
@@ -289,7 +290,7 @@
         font-size: 29px;}
     
     .formulario{
-        max-width: 100%;
+        max-width: 96%;
         width: 500px;}
 
         /* Footer */
@@ -346,7 +347,7 @@
     
     .video{
         border: 5px solid rgb(129, 104, 104);
-        width: 310px;
+        width: 98%;
         height:170px;}
     
         /* Sección Nosotros */
@@ -394,7 +395,7 @@
         height: 270px;}
         
     #contacto h2{
-        font-size: 29px;}
+        font-size: 25px;}
     
         /* Footer */
     

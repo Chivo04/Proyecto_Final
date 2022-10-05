@@ -105,7 +105,7 @@ article img{
 
     /* Sección Contacto */
 
-.contact_form{  
+.formulario{  
     width: 435px;
     height: auto;
     margin: 80px auto;
@@ -113,10 +113,17 @@ article img{
     padding-bottom: 20px;  
     background-color: #fbfbfb; 
     padding-left: 6px;}
-  
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
 input{
     background-color: #fbfbfb; 
-    width: 408px;
+    width: 95%;
     height: 40px;
     border-radius: 5px;  
     border-style: solid; 
@@ -128,7 +135,7 @@ input{
   
 textarea{
     background-color: #fbfbfb; 
-    width: 405px; 
+    width: 95%; 
     height: 150px; 
     border-radius: 5px;  
     border-style: solid; 
