@@ -50,7 +50,7 @@ article img{
     background-image: url("/assets/img/varios/Escritura2.jpg");
     background-repeat:none;
     background-size: cover;
-    height: 409px;}
+    height: 100%;}
 
 .mx-auto{
     margin-right: auto;
@@ -117,9 +117,7 @@ article img{
 .formulario{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
-}
+    justify-content: center;}
 
 input{
     background-color: #fbfbfb; 
@@ -131,7 +129,8 @@ input{
     border-color: #ab4493; 
     margin-top: 10px;  
     padding-left: 10px;
-    margin-bottom: 20px;}
+    box-shadow:$sombra1;  
+    margin-bottom: 7px;}
   
 textarea{
     background-color: #fbfbfb; 
@@ -143,7 +142,8 @@ textarea{
     border-color: #ab4493; 
     margin-top: 10px;  
     padding-left: 10px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+    box-shadow:$sombra1;  
     padding-top: 15px;}
   
 label{
@@ -164,7 +164,8 @@ label{
     font-family:'Montserrat',sans-serif;
     background-color: rgb(66, 194, 72); 
     border:2px solid #78788c; 
-    border-radius: 10px;  
+    border-radius: 10px;
+    box-shadow: $sombra2; 
     width: 100px;   
     cursor: pointer;}
 
@@ -176,9 +177,10 @@ label{
     margin-top: 10px;   
     text-transform: uppercase;
     font-family:'Montserrat',sans-serif;
-    background-color: rgb(129, 83, 65); 
-    border:2px solid #78788c; 
-    border-radius: 10px;  
+    background-color: rgb(224, 125, 125); 
+    border:2px solid #78788c;
+    border-radius: 10px;
+    box-shadow:$sombra2;
     width: 100px;   
     cursor: pointer;}
   
@@ -191,13 +193,14 @@ label{
  
 .formulario h2{
     font-size: 39px;  
-    text-align: letf; 
-    padding-bottom: 20px; 
+    text-align: center; 
+    padding-top: 9px;
     color: #ab4493;}
   
-.formulario h3{
-    font-size: 16px; 
-    padding-bottom: 30px;
+.formulario h4{
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 3px;
     color: #0e0e0e;}
   
 .formulario p{
