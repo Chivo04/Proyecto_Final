@@ -153,6 +153,9 @@ body {
 .nosotros {
   height: 375px;
   font-size: 8pt;
+  border: solid 4px rgb(98, 98, 173);
+  margin: 5px;
+  border-radius: 10px;
 }
 
 .nosotros_interno {
