@@ -15,6 +15,16 @@
   margin: 15px;
 }
 
+.flecha:hover {
+  transform: scale(1) translateY(-10px);
+  transition: 0.3s;
+  color: black;
+  background-color: rgb(152, 158, 158);
+  border-radius: 8%;
+  border-color: #4158D0;
+  border-style: inherit;
+}
+
 .flecha {
   position: fixed;
   bottom: 50px;
