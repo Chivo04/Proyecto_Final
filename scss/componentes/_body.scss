@@ -8,14 +8,14 @@
     margin: nth($list: $tamaños, $n: 3);}
 
 .flecha:hover{
-        transform: scale(1) translateY(-10px);
-        transition: 0.3s;
-        color: black;
-        background-color: $bg-transf1;
-        border-radius: 8%;
-        border-color: $bg-footer;
-        border-style:inherit;
-    }
+    transform: scale(1) translateY(-10px);
+    transition: 0.3s;
+    color: black;
+    background-color: $bg-transf1;
+    border-radius: 8%;
+    border-color: $bg-footer;
+    border-style:inherit;
+}
 
 
 .flecha{
