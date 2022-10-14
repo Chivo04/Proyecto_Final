@@ -167,7 +167,7 @@ body {
 
 /* Sección Nosotros */
 .nosotros {
-  height: 375px;
+  height: auto;
   font-size: 8pt;
   border: solid 4px rgb(98, 98, 173);
   margin: 5px;

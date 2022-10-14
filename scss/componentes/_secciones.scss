@@ -2,9 +2,9 @@
 
 .presentacion{
     height: 480px;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;}
 
 .presentacion h1{
@@ -21,7 +21,7 @@
     /* Sección Nosotros */
  
 .nosotros{
-    height: 375px;
+    height: auto;
     font-size: 8pt;
     border:solid 4px rgb(98, 98, 173);
     margin: 5px;
