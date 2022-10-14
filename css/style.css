@@ -504,7 +504,7 @@ label {
   }
   /* Sección Nosotros */
   .nosotros {
-    height: 335px;
+    height: auto;
   }
   .nosotros h2 {
     font-size: 36px;
@@ -600,7 +600,7 @@ label {
   }
   /* Sección Nosotros */
   .nosotros {
-    height: 190px;
+    height: auto;
     font-size: 8pt;
   }
   .nosotros h2 {
@@ -693,7 +693,7 @@ label {
   }
   /* Sección Nosotros */
   .nosotros {
-    height: 210px;
+    height: auto;
     font-size: 8pt;
   }
   .nosotros h2 {
