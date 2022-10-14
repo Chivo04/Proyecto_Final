@@ -51,7 +51,7 @@ body {
   text-decoration: none;
   color: black;
   color: rgb(23, 21, 160);
-  font-size: 21px;
+  font-size: 20px;
 }
 
 .desplegable {
@@ -113,6 +113,11 @@ body {
 
 .nav-link {
   padding: 0;
+}
+
+.container-fluid {
+  padding-right: none;
+  padding-left: none;
 }
 
 /* Barra Navegación Páginas con Boostrap */
@@ -631,9 +636,6 @@ label {
     font-size: 12px;
   }
   /* Sección Contacto */
-  #contacto {
-    height: 370px;
-  }
   #contacto h2 {
     font-size: 29px;
   }
@@ -726,9 +728,6 @@ label {
     font-size: 12px;
   }
   /* Sección Contacto */
-  #contacto {
-    height: 370px;
-  }
   #contacto h2 {
     font-size: 29px;
   }
@@ -825,9 +824,6 @@ label {
     font-size: 12px;
   }
   /* Sección Contacto */
-  #contacto {
-    height: 270px;
-  }
   #contacto h2 {
     font-size: 25px;
   }
