@@ -116,8 +116,8 @@ body {
 }
 
 .container-fluid {
-  padding-right: none;
-  padding-left: none;
+  padding-right: var(--bs-gutter-x, 0px);
+  padding-left: var(--bs-gutter-x, 0px);
 }
 
 /* Barra Navegación Páginas con Boostrap */
